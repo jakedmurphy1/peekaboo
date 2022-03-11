@@ -4,7 +4,7 @@ Peekaboo is a Python script that screenshots every service running on port 80 an
 
 # Setup
 ```
-python3 -m pip install requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 # Usage
