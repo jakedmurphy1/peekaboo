@@ -1,6 +1,6 @@
 # Peekaboo
 
-Peekaboo is a Python script that screenshots every service running on port 80 and 443, taking Nmap XML as input. It's a simple and quick alternative to other similar tools. In the HTML results file, the images can be clicked to open up the service in a new tab.
+Peekaboo is a Python script that screenshots every service running on port 80 and 443, taking Nmap XML as input. It's a simple and quick alternative to other similar tools. In the HTML results file, the images can be clicked to open the service in a new tab.
 
 # Setup
 ### Ensure Google Chrome is Downloaded
@@ -23,6 +23,7 @@ Peekaboo takes Nmap XML as input, so first run an Nmap scan and use '-oX' to cre
 ```
 nmap 10.10.200.12 -oX nmap_results.xml
 ```
+Then pass the resulting xml file to Peekaboo
 ```
 python3 peekaboo.py nmap_results.xml
 ```
