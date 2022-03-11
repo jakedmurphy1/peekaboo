@@ -72,6 +72,7 @@ def take_screenshots(hosts):
     options.add_argument('--ignore-ssl-errors=yes')
     options.add_argument('--ignore-certificate-errors')
     options.add_argument('--headless')
+    options.add_argument('--no-sandbox')
     
     count = 0
     for host in hosts:
