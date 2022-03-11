@@ -3,7 +3,7 @@
 Peekaboo is a Python script that screenshots every service running on port 80 and 443, taking Nmap XML as input. It's a simple and quick alternative to other similar tools.
 
 # Setup
-#### Ensure you having Google Chrome downloaded: https://www.tecmint.com/install-google-chrome-on-kali-linux/
+#### Ensure you have Google Chrome downloaded: https://www.tecmint.com/install-google-chrome-on-kali-linux/
 ```
 python3 -m pip install -r requirements.txt
 ```
